@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "dining_hall_food_waste_prediction"
+version = "0.0.1"
+description = "This project uses data science to predict food waste in college dining halls. By analyzing factors such as meal type, portion size, and day of the week, the goal is to build a model that helps dining services reduce waste, save money, and support campus sustainability efforts."
+authors = [
+  { name = "Asvidu Samarasinghe" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.12.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["dining_hall_food_waste_prediction"]
+include = ["pyproject.toml", "dining_hall_food_waste_prediction/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["dining_hall_food_waste_prediction"]
+force-sort-within-sections = true
+
