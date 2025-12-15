@@ -6,15 +6,15 @@
 
 ## Sprint 1 – Project Overview and Problem Definition
 
-In Sprint 1, I defined the overall problem of global food waste and its economic impact. I explained why food waste is an important issue and identified key stakeholders affected by it. I outlined the project goal, which is to analyze food waste patterns and predict total food waste and economic loss using data science. I also identified potential data sources and described the basic analytical approach.
+In Sprint 1, defined the overall problem of global food waste and its economic impact. Explained why food waste is an important issue and identified key stakeholders affected by it. I outlined the project goal, which is to analyze food waste patterns and predict total food waste and economic loss using data science. I also identified potential data sources and described the basic analytical approach.
 
 ## Sprint 2 – Data Acquisition, Cleaning, and Exploratory Analysis
 
-In Sprint 2, I obtained a global food wastage dataset from Kaggle and confirmed successful data access. I cleaned the dataset by removing rows with missing values, checking for duplicates, and reviewing data quality. I conducted exploratory data analysis to understand trends over time, differences across food categories and countries, and relationships between variables. Based on EDA, I refined the problem focus and identified a strong relationship between total food waste and economic loss.
+In Sprint 2, obtained a global food wastage dataset from Kaggle and confirmed successful data access. Cleaned the dataset by removing rows with missing values, checking for duplicates, and reviewing data quality. Conducted exploratory data analysis to understand trends over time, differences across food categories and countries, and relationships between variables. Based on EDA, I refined the problem focus and identified a strong relationship between total food waste and economic loss.
 
 ## Sprint 3 – Modeling, Evaluation, and Interpretation
 
-In Sprint 3, I built and compared multiple regression models, including Linear Regression, Decision Tree Regression, and Random Forest Regression. Separate models were trained for predicting total food waste and economic loss. Model performance was evaluated using RMSE and R². The results showed that Random Forest performed best for predicting total waste, while Linear Regression performed best for predicting economic loss. Feature importance analysis revealed strong feature dominance between total food waste and economic loss, which informed model interpretation and limitations.
+In Sprint 3, Built and compared multiple regression models, including Linear Regression, Decision Tree Regression, and Random Forest Regression. Separate models were trained for predicting total food waste and economic loss. Model performance was evaluated using RMSE and R². The results showed that Random Forest performed best for predicting total waste, while Linear Regression performed best for predicting economic loss. Feature importance analysis revealed strong feature dominance between total food waste and economic loss, which informed model interpretation and limitations.
 
 
 ## Project Organization
@@ -69,6 +69,7 @@ In Sprint 3, I built and compared multiple regression models, including Linear R
 ```
 
 --------
+
 
 
 
